@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-family: monospace;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  border: black 1px solid;
+  margin-top: 1rem;
+  width: 95%;
+  max-width: 30rem;
+  min-height: 20rem;
+}
+
+.event-text {
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1rem;
+}
